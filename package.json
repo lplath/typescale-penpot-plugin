@@ -1,0 +1,23 @@
+{
+  "name": "typescale",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite-live-preview",
+    "build": "tsc && vite build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "solid-devtools": "^0.29.3",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11",
+    "vite-live-preview": "^0.2.2",
+    "vite-plugin-solid": "^2.8.2"
+  },
+  "dependencies": {
+    "@penpot/plugin-styles": "1.0.0",
+    "@penpot/plugin-types": "1.0.0",
+    "solid-js": "^1.8.11"
+  }
+}

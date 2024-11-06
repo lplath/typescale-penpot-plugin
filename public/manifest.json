@@ -1,0 +1,7 @@
+{
+  "name": "Typescale",
+  "code": "plugin.js",
+  "icon": "/icon.png",
+  "description": "Create typographic hierarchies",
+  "permissions": ["content:read", "content:write"]
+}
