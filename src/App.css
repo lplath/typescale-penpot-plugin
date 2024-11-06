@@ -23,16 +23,31 @@ body {
   width: 100%;
   display: flex;
   gap: 1rem;
+}
+
+.range-input {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    margin-left: 1.5rem;
+    margin-bottom: 0.25rem;
+  }
 
   & > div {
-    width: 100%;
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+     
     & > input {
       width: 100%;
+
     }
   }
+
 }
 
 button {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }

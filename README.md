@@ -1,3 +1,1 @@
 # Typescale (Penpot-plugin)
-
-
